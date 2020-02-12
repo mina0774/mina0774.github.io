@@ -50,7 +50,7 @@
             margin: 0px auto;
         }
 
-        ul {
+        #grid ul {
             border-right: 1px gray dotted;
             width: 300px;
             margin: 0;
@@ -62,10 +62,34 @@
             padding-top: 20px;
             padding-bottom: 10px;
         }
-        #grid{
+
+        #grid {
             display: grid;
             grid-template-columns: 350px 1fr;
-            
+
+        }
+
+        #article {
+            padding-left: 15px;
+        }
+
+        @media(max-width:800px) {
+            #grid {
+                display: block;
+            }
+
+            #grid ul {
+                border-right: none;
+            }
+
+            h1 {
+                border: none;
+            }
+
+            h6 {
+                border-bottom: none;
+                border-top: none;
+            }
         }
     </style>
     <div id="grid">
@@ -85,8 +109,8 @@
             <li><strong> Z-Shop Application</strong></li>
         </ul>
 
-        <div>
-            <h3><strong>>전공 학습 튜터링 코딩 Help Desk</strong><br> <span style="font-size: 10px">2019-09-16 ~ 2019-12-13</span></h3>
+        <div id="article">
+            <h3><strong>전공 학습 튜터링 코딩 Help Desk</strong><br> <span style="font-size: 10px">2019-09-16 ~ 2019-12-13</span></h3>
 
             <h4>활동내용</h4>
             <p>
