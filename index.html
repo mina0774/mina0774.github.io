@@ -7,11 +7,18 @@
 </head>
 
 <body>
-    <input type="button" value="dark mode" onclick="document.querySelector('body').style.backgroundColor='black';
-                                                    document.querySelector('body').style.color='white';"> 
-       <input type="button" value="light mode" onclick="document.querySelector('body').style.backgroundColor='white';
-                                                    document.querySelector('body').style.color='black';">   
-    
+    <input id="dark_mode" type="button" value="dark mode" onclick="                   
+                                                var target=document.querySelector('body');
+                                                                   if(this.value==='dark mode'){
+target.style.backgroundColor='black';
+target.style.color='white';
+this.value='light mode';
+}
+else{
+target.style.backgroundColor='white';
+target.style.color='black';
+this.value='dark mode'}">
+
     <h1><strong>Dev</strong> </h1>
     <h6> <a href="https://www.github.com/mina0774" target="_blank" title="github profile" class="saw">
             <img src="https://avatars1.githubusercontent.com/u/48617981?s=460&v=4" width="10%"><br>
