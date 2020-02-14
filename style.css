@@ -3,10 +3,9 @@
         }
 
         a {
-            color: #333399;
             color: black;
+            text-decoration: none;
         }
-
         .saw {
             color: gray;
         }
