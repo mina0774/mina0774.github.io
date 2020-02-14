@@ -2,77 +2,75 @@
 <html>
 
 <head>
-    <title>포트폴리오</title>
-    <meta charset="utf-8">
+  <title>포트폴리오</title>
+  <meta charset="utf-8">
+  <script src="color.js">
+  </script>
 </head>
 
 <body>
+  <input id="dark_mode" type="button" value="dark mode" onclick=" darkModeHandler(this)">
+  <h1><strong>Dev</strong> </h1>
+  <h6> <a href="https://www.github.com/mina0774" target="_blank" title="github profile" class="saw">
+      <img src="https://avatars1.githubusercontent.com/u/48617981?s=460&v=4" width="10%"><br>
+      △ github △<br><br></a>
+    안녕하세요, 저는 <strong>중앙대학교 재학 중인<u> 조민아</u></strong>입니다.<br>
+    Hi, My name is <strong><u> MinAh Jo </u> </strong> in <strong>Chung-Ang University</strong>.</h6>
 
-    <input type="button" value="dark mode" onclick="document.querySelector('body').style.backgroundColor='black';
-                                                    document.querySelector('body').style.color='white';">
-    <input type="button" value="light mode" onclick="document.querySelector('body').style.backgroundColor='white';
-                                                    document.querySelector('body').style.color='black';">
-    <h1><strong>Dev</strong> </h1>
-    <h6> <a href="https://www.github.com/mina0774" target="_blank" title="github profile" class="saw">
-            <img src="https://avatars1.githubusercontent.com/u/48617981?s=460&v=4" width="10%"><br>
-            △ github △<br><br></a>
-        안녕하세요, 저는 <strong>중앙대학교 재학 중인<u> 조민아</u></strong>입니다.<br>
-        Hi, My name is <strong><u> MinAh Jo </u> </strong> in <strong>Chung-Ang University</strong>.</h6>
+  <!--현재 파일은 html 파일이지만 style 안에 있는 부분은 css 문법으로 인식해야함. -->
+  <link rel="stylesheet" href="style.css">
+  <div id="grid">
+    <ul>
+      <h2> 교내외 활동 </h2>
 
-    <!--현재 파일은 html 파일이지만 style 안에 있는 부분은 css 문법으로 인식해야함. -->
-    <link rel="stylesheet" href="style.css">
-    <div id="grid">
-        <ul>
-            <h2> 교내외 활동 </h2>
+      <li><strong><a href="index.html">해외 연수 프로그램 UCI I-SURF</a></strong><br> 2019-06-23 ~ 2019-09-01</li>
+      <li><strong><a href="helpdesk.html">전공 학습 튜터링 코딩 Help Desk</a></strong><br> 2019-09-16 ~ 2019-12-13</li>
+      <li><strong> 히어로네이션 인턴쉽 </strong><br> 2019-12-23~2020-06-19</li>
 
-            <li><strong><a href="index.html">해외 연수 프로그램 UCI I-SURF</a></strong><br> 2019-06-23 ~ 2019-09-01</li>
-            <li><strong><a href="helpdesk.html">전공 학습 튜터링 코딩 Help Desk</a></strong><br> 2019-09-16 ~ 2019-12-13</li>
-            <li><strong> 히어로네이션 인턴쉽 </strong><br> 2019-12-23~2020-06-19</li>
+      <h2> 프로젝트 경험 </h2>
 
-            <h2> 프로젝트 경험 </h2>
+      <li><strong> 얼굴 인식 모델 생성 (openCV)</strong></li>
+      <li><strong>Mu:Ping</strong></li>
+      <li><strong>Ang-Bob</strong></li>
+      <li><strong>Flex-Bison Interpreter</strong></li>
+      <li><strong> Z-Shop Application</strong></li>
+    </ul>
 
-            <li><strong> 얼굴 인식 모델 생성 (openCV)</strong></li>
-            <li><strong>Mu:Ping</strong></li>
-            <li><strong>Ang-Bob</strong></li>
-            <li><strong>Flex-Bison Interpreter</strong></li>
-            <li><strong> Z-Shop Application</strong></li>
-        </ul>
+    <div id="article">
+      <h3><strong>전공 학습 튜터링 코딩 Help Desk</strong><br> <span style="font-size: 10px">2019-09-16 ~ 2019-12-13</span></h3>
 
-        <div id="article">
-            <h3><strong>전공 학습 튜터링 코딩 Help Desk</strong><br> <span style="font-size: 10px">2019-09-16 ~ 2019-12-13</span></h3>
+      <h4>활동내용</h4>
+      <p>
+        활동을 하면서, 자료구조, 컴퓨터 구조, 모바일 앱 개발에 대한 질문 등을 받았습니다. 또한, 질문을 받다 미처 기억하지 못한 부분에 대해서는 지난 과목에 대한 복습을 하기도 했습니다.
+      </p>
 
-            <h4>활동내용</h4>
-            <p>
-                활동을 하면서, 자료구조, 컴퓨터 구조, 모바일 앱 개발에 대한 질문 등을 받았습니다. 또한, 질문을 받다 미처 기억하지 못한 부분에 대해서는 지난 과목에 대한 복습을 하기도 했습니다.
-            </p>
-
-            <h4>소감</h4>
-            <p>
-                멘토링 프로그램에 참여하게 되면서, 저 스스로 많이 성장했던 것 같습니다. 멘토링을 하면서, 미처 기억하지 못했던 전공 공부에 대한 복습을 하는 시간이 되기도 하였습니다. 또한, 멘티에게 문제 해결의 실마리를 제공해줄 수 있다는 것이 뿌듯했습니다. 앞으로도 이런 프로그램이 있다면, 또 참여할 수 있는 기회를 가질 수 있었으면 좋겠습니다.
-        </div>
+      <h4>소감</h4>
+      <p>
+        멘토링 프로그램에 참여하게 되면서, 저 스스로 많이 성장했던 것 같습니다. 멘토링을 하면서, 미처 기억하지 못했던 전공 공부에 대한 복습을 하는 시간이 되기도 하였습니다. 또한, 멘티에게 문제 해결의 실마리를 제공해줄 수 있다는 것이 뿌듯했습니다. 앞으로도 이런 프로그램이 있다면, 또 참여할 수 있는 기회를 가질 수 있었으면 좋겠습니다.
     </div>
+  </div>
 
 
-    <div id="disqus_thread"></div>
-    <script>
-        /**
-         *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-         *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-        /*
-        var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-        };
-        */
-        (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document,
-                s = d.createElement('script');
-            s.src = 'https://my-portfolio-minajo.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <div id="disqus_thread"></div>
+  <script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document,
+        s = d.createElement('script');
+      s.src = 'https://my-portfolio-minajo.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </body>
 
 </html>
