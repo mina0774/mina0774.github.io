@@ -5,28 +5,47 @@
   <title>포트폴리오</title>
   <meta charset="utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="color.js"></script>
+  <script type="text/javascript" src="menu_slide.js"></script>
 </head>
 <!--현재 파일은 html 파일이지만 style 안에 있는 부분은 css 문법으로 인식해야함. -->
 <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Tomorrow&display=swap&subset=korean" rel="stylesheet"> <!--글씨체-->
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Tomorrow&display=swap&subset=korean" rel="stylesheet">
+<!--글씨체-->
+
 <body>
+<div id="grid">
+  <ul>
+    <img src="logo.png"><br><br>
+    <li class="item">
+      <h3 class="accordionTitle"><span></span> Profile</h3>
+      <ul>
+        <li class="accordionMenu"><a href="index.html"> Skill </a></li>
+      </ul>
+    </li>
+    <li class="item">
+      <h3 class="accordionTitle"><span></span> Activity</h3>
+      <ul>
+        <li class="accordionMenu"><a href="uci.html"> UCI Undergraduate Researcher</a></li>
+        <li class="accordionMenu"><a href="helpdesk.html"> Coding HelpDesk</a></li>
+        <li class="accordionMenu"><a href="uci.html"> Heronation InternShip </a></li>
+      </ul>
+    </li>
+    <li class="item">
+      <h3 class="accordionTitle"><span></span> Project</h3>
+      <ul>
+        <li class="accordionMenu"><a href="face_recognition.html"> Face Recognition</a></li>
+        <li class="accordionMenu"><a href="muping.html"> Mu:Ping App</a></li>
+        <li class="accordionMenu"><a href="angbob.html"> Ang-Bob App</a></li>
+        <li class="accordionMenu"><a href="flex_bison.html"> Flex-Bison Interpreter</a></li>
+        <li class="accordionMenu"><a href="z-shop.html"> Z-shop App</a></li>
+      </ul>
+    </li>
+  </ul>
 
-  <div id="grid">
-    <ul>
-      <img src="logo.png"><br><br>
-      <ul id="menu">
-        <h3><a href="index.html"> Profile </a></h3><br>
-        <h3><a href="uci.html"> Activity </a></h3><br>
-        <h3> Project </h3><br>
-    </ul>
-    </ul>
+
     <div id="article">
-
       <h6> <a href="https://www.github.com/mina0774" target="_blank" title="github profile">
           <img src="https://avatars1.githubusercontent.com/u/48617981?s=460&v=4" class="github_image">
-
-      </p>
     </div>
   </div>
 

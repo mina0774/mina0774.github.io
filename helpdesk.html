@@ -5,28 +5,42 @@
   <title>포트폴리오</title>
   <meta charset="utf-8">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="color.js"></script>
+  <script type="text/javascript" src="menu_slide.js"></script>
 </head>
-  <link rel="stylesheet" href="style.css">
+<!--현재 파일은 html 파일이지만 style 안에 있는 부분은 css 문법으로 인식해야함. -->
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Tomorrow&display=swap&subset=korean" rel="stylesheet">
+<!--글씨체-->
+
 <body>
-  <!--현재 파일은 html 파일이지만 style 안에 있는 부분은 css 문법으로 인식해야함. -->
-  <div id="grid">
-    <ul>
-      <h1><strong>Dev</strong> </h1>
-      <h3> 대외활동 </h3>
-
-      <li><strong><a href="index.html">해외 연수 프로그램 UCI I-SURF</a></strong><br></li>
-      <li><strong><a href="helpdesk.html">전공 학습 튜터링 코딩 Help Desk</a></strong><br></li>
-      <li><strong><a href="internship.html"> 히어로네이션 인턴쉽 </strong><br></li>
-
-      <h3> 프로젝트 </h3>
-
-      <li><strong> 얼굴 인식 모델 생성 (openCV)</strong></li>
-      <li><strong>Mu:Ping</strong></li>
-      <li><strong>Ang-Bob</strong></li>
-      <li><strong>Flex-Bison Interpreter</strong></li>
-      <li><strong> Z-Shop Application</strong></li>
-    </ul>
+<div id="grid">
+  <ul>
+    <img src="logo.png"><br><br>
+    <li class="item">
+      <h3 class="accordionTitle"><span></span> Profile</h3>
+      <ul>
+        <li class="accordionMenu"><a href="index.html"> Skill </a></li>
+      </ul>
+    </li>
+    <li class="item">
+      <h3 class="accordionTitle"><span></span> Activity</h3>
+      <ul>
+        <li class="accordionMenu"><a href="uci.html"> UCI Undergraduate Researcher</a></li>
+        <li class="accordionMenu"><a href="helpdesk.html"> Coding HelpDesk</a></li>
+        <li class="accordionMenu"><a href="uci.html"> Heronation InternShip </a></li>
+      </ul>
+    </li>
+    <li class="item">
+      <h3 class="accordionTitle"><span></span> Project</h3>
+      <ul>
+        <li class="accordionMenu"><a href="face_recognition.html"> Face Recognition</a></li>
+        <li class="accordionMenu"><a href="muping.html"> Mu:Ping App</a></li>
+        <li class="accordionMenu"><a href="angbob.html"> Ang-Bob App</a></li>
+        <li class="accordionMenu"><a href="flex_bison.html"> Flex-Bison Interpreter</a></li>
+        <li class="accordionMenu"><a href="z-shop.html"> Z-shop App</a></li>
+      </ul>
+    </li>
+  </ul>
 
     <div id="article">
       <h3><strong>전공 학습 튜터링 코딩 Help Desk</strong><br> <span style="font-size: 10px">2019-09-16 ~ 2019-12-13</span></h3>
