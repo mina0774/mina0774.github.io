@@ -71,11 +71,10 @@
    	transition: all 0.15s;
    }
    #grid ul ul li a:hover {
-     color:white;
-   	background: #003366;
-   	border-left: 10px solid #D2B48C;
+     color: white;
+     border-left: 10px solid #FFCD4A;
+     background: #003366;
    }
-
    #grid .accordionTitle:hover{
      background: #F3F3F3;
    }
